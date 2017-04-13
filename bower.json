@@ -1,0 +1,24 @@
+{
+  "name": "bDesign",
+  "description": "\"\"",
+  "main": "index.js",
+  "authors": [
+    "steveMQ"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "\"\""
+  ],
+  "homepage": "https://github.com/steveMQ/bDesign",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3",
+    "jquery": "^3.2.1"
+  }
+}
