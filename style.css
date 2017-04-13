@@ -1,1 +1,6 @@
-/* just kidding.. there's nothing here! */
+/*
+  Theme name: bDesignTheme
+*/
+
+/* location of compiled css */
+@import url('./less/main.css')
