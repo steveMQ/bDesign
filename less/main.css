@@ -2111,5 +2111,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 /* individual css files */
 header {
-  background-color: 'lime';
+  background-color: lime;
+}
+header .narwhals {
+  color: red;
+  font-size: 20px;
 }
