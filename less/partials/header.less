@@ -1,7 +1,45 @@
+/* styles for header area */
+
 header {
-  background-color: lime;
-  .narwhals {
-    color: red;
-    font-size: 20px;
+  .navbar {
+    background-color: @bg-blue;
+    border-top-color: @logo-color;
+    border-bottom-color: @logo-color;
+    border-right: 0px;
+    border-left: 0px;
+    .container-fluid {
+      .navbar-header {
+        .navbar-toggle {
+          background: none;
+          border: 0px solid transparent;
+          .icon-bar {
+            background-color: @logo-color;
+          }
+        }
+        .navbar-brand {
+          padding-top: 5px;
+          .logo {
+            height:40px;
+            width:30px;
+          }
+        }
+      }
+      .navbar-collapse {
+        border-top-color: @logo-color;
+        .nav {
+          li {
+            a {
+              color: @logo-color;
+            }
+          }
+          .active {
+            a {
+              background-color: @logo-color;
+              color: @bg-blue;
+            }
+          }
+        }
+      }
+    }
   }
 }

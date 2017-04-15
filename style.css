@@ -3,5 +3,4 @@
 */
 
 /* location of compiled css */
-
-@import url('./less/main.css')
+@import url('./build/main.css')
