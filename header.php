@@ -39,13 +39,16 @@
               <li class="active">
                 <a href="#">Home<span class="sr-only">(current)</span></a>
               </li>
-              <li><a href="#">About</a></li>
+              <li><a href="#">About Us</a></li>
               <li><a href="#">Projects</a></li>
+              <li><a href="#">Staging</a></li>
               <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact Us</a></li>
+
             </ul>
           </div>
         </div>
       </nav>
-
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/woodTop.png" id="woodTop"/>
     </header>
