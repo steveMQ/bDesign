@@ -40,10 +40,8 @@
                 <a href="#">Home<span class="sr-only">(current)</span></a>
               </li>
               <li><a href="#">About Us</a></li>
-              <li><a href="#">Projects</a></li>
               <li><a href="#">Staging</a></li>
               <li><a href="#">Gallery</a></li>
-              <li><a href="#">Testimonials</a></li>
               <li><a href="#footer">Contact Us</a></li>
 
             </ul>
