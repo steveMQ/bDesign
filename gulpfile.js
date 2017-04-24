@@ -21,7 +21,7 @@ gulp.task('javascript', function () {
   .pipe(gulp.dest('build'))
 });
 
-guild.task('build', ['less', 'javascript']);
+gulp.task('build', ['less', 'javascript']);
 
 gulp.task('default', ['build'], function() {
   gulp.watch(

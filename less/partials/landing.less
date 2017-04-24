@@ -1,9 +1,36 @@
 /* styles for landing area */
 #landing {
-  div {
+
+  #bpCarouselWrapper {
     .make-row();
-    #landingImage {
+    #bpCarousel {
       .make-xs-column(12);
+      .carousel-indicators {
+        bottom:50px;
+        li {
+          background-color: @bg-blue;
+        }
+      }
+      .carousel-inner {
+        height:400px;
+        .item {
+          width:100%;
+
+          img {
+            width:100%;
+            height:300px;
+          }
+        }
+      }
+      .carousel-control {
+        height: 300px;
+      }
+      .left.carousel-control {
+        margin-left: 15px;
+      }
+      .right.carousel-control {
+        margin-right: 15px;
+      }
     }
   }
 }
