@@ -1,4 +1,4 @@
-    <footer>
+    <footer id="#footer">
       <div class="container">
         <div id="ribbonRow">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/contactRibbon.png" id="contactRibbon"/>
@@ -23,21 +23,7 @@
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
         </div>
-        <div id="socialIcons">
-          <a href="#">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/socialSprite.png" />
-          </a>
-          <a href="#">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/socialSprite.png" />
-          </a>
-          <a href="#">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/socialSprite.png" />
-          </a>
-          <a href="#">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/socialSprite.png" />
-          </a>
 
-        </div>
       </div>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/woodBot.png" id="woodBot"/>
     </footer>

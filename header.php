@@ -44,7 +44,7 @@
               <li><a href="#">Staging</a></li>
               <li><a href="#">Gallery</a></li>
               <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="#footer">Contact Us</a></li>
 
             </ul>
           </div>
