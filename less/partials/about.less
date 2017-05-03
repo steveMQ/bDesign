@@ -1,0 +1,32 @@
+/* styles for the about section */
+
+#aboutUs {
+  #aboutBannerRibbon {
+    .make-row();
+    #aboutRibbon {
+      .make-xs-column(12);
+    }
+    .aboutName {
+      .make-xs-column-offset(4);
+      .make-xs-column(4);
+      .make-xs-column-offset(4);
+      text-align: center;
+      color: @bg-blue;
+    }
+    .aboutPicture {
+      .make-xs-column-offset(2);
+      .make-xs-column(8);
+      .make-xs-column-offset(2);
+      max-height: 300px;
+    }
+    .aboutDescription {
+      text-align: center;
+      color: @bg-blue;
+      font-size: 12px;
+      .make-xs-column-offset(1);
+      .make-xs-column(10);
+      .make-xs-column-offset(1);
+
+    }
+  }
+}
